@@ -13,6 +13,7 @@ public class LEctor {
 
             while (escaner.hasNextLine()) {
                 String linea = escaner.nextLine(); // Leemos la siguiente linea del archivo.
+                //int numero = escaner.nextInt(); // Leemos el siguiente entero del archivo.
                 System.out.println(linea);
             } 
 
