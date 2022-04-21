@@ -8,7 +8,7 @@
  *
  *  @author  Roberto Méndez Méndez
  *  @since  23/Mar/22
- *  @version 1
+ *  @version 7/Abr/22
  */
 public class EpsilonDeMaquina {
 
@@ -28,9 +28,10 @@ public class EpsilonDeMaquina {
         int i = 0;
         while( 1 + eps > 1){
             eps /= 2;
-            i++;
+            i++;  // i = i + 1;
         }
-        System.out.println("El epsilon de máquina para double es: " + eps);
+        double epsMachine = eps*2;
+        System.out.println("El epsilon de máquina para double es: " + epsMachine);
         System.out.println("Por qué  i es: " + i);
 
     }
