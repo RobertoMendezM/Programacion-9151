@@ -13,6 +13,7 @@ public class LEctor {
         try {
             Scanner escaner = new Scanner(System.in); // Creando un obj scanner
             File miArchivo = new File("AMZN.csv"); // Creando un obj archivo o File
+            File miArchivo = new File("D://Ulmo//Documentos//Compu//Materias//Progra//Ayudantias//Repo//CodigoAyudantias//GOOGLE.csv"); // Creando un obj archivo o File
 
             escaner = new Scanner(miArchivo);
 
