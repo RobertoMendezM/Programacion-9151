@@ -19,6 +19,16 @@ public class Principal {
         
         System.out.println("#######################");
         poke2.mostrarPokemon();
+        
+        
+        
+        System.out.println("#######################");
+        PokemonLegendario Rayquaza = new PokemonLegendario(
+                384, "Dragon", "Rayquaza",
+                "Dicen que Rayquaza ha vivido durante millones de años. Las leyendas cuentan que puso fin al continuo enfrentamiento entre Groudon y Kyogre.", 100,
+                "Nivel 4");
+        Rayquaza.mostrarPokemon();
 
+        System.out.println(Rayquaza.getClass());
     }
 }

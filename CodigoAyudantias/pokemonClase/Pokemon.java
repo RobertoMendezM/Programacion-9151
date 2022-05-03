@@ -1,6 +1,6 @@
 package pokemonClase;
 
-public abstract class Pokemon {
+public class Pokemon {
     int id ;
     String tipo = "";
     //String tipo2 = "";
@@ -34,6 +34,7 @@ public abstract class Pokemon {
 
     public void setTipo(String tipo) {
         this.tipo = tipo;
+        return ;
     }
 
     public String getNombre() {
