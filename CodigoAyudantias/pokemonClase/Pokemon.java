@@ -67,6 +67,7 @@ public class Pokemon {
         System.out.println("El nombre del pokemon es: " + nombre);
         System.out.println("La descripcion del pokemon es: " + descripcion);
         System.out.println("El nivel del pokemon es: " + nivel);
+        System.out.println("#######################");
     }
 
 }

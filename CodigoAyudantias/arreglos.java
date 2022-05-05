@@ -1,7 +1,8 @@
 import java.util.Arrays;
+
 public class arreglos {
     public static void main(String[] args) {
-        int[] arr = {5,3,2,1};
+        final int[] arr = {5,3,2,1};
         System.out.println(Arrays.toString(arr));
         int variable = arr[2];
         int tamanio = arr.length;
